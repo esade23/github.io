@@ -1,0 +1,56 @@
+body {
+  background-color: #FFB7C5; /* Soft pink background */
+  color: #FF69B4; /* Bubblegum pink text */
+  font-family: 'Comic Sans MS', Arial, sans-serif; /* Fun, playful font */
+}
+
+form {
+  line-height: 30px; /* Increase line height for better spacing */
+}
+
+h1 {
+  font-family: 'Pacifico', cursive; /* A cursive, playful font */
+  font-size: 4.5em; /* Slightly smaller to fit the vibe */
+  overflow: break-word;
+  color: #FF1493; /* A brighter pink for the header */
+  text-shadow: 
+    -8px -8px 0 #FFFFFF,  /* Top-left */
+    8px -8px 0 #FFFFFF,   /* Top-right */
+    -8px 8px 0 #FFFFFF,   /* Bottom-left */
+    8px 8px 0 #FFFFFF;    /* Bottom-right */
+}
+
+.overlay {
+  width: 80%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  padding: 2%;
+  height: 90vh;
+  background-color: rgba(255, 240, 245, 1); /* Very light pink, almost white */
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+}
+
+input[type="number"] {
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #FF69B4;
+  font-size: 1.2em;
+  color: #FF69B4;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #FF69B4;
+  color: #FFFFFF;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF1493; /* Darker pink on hover */
+}
